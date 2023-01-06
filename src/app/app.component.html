@@ -27,7 +27,7 @@
       </ng-container>
       <ng-template #elseTemplate>
         <!--<div class="col-4" style="{{ isShowDiv ? '' : 'display:none;' }}">-->
-        <div class="col-4" style="{{ isShowDiv ? '' : 'display:none;position: fixed;' }}">
+        <div class="col-4" style="{{ isShowDiv ? 'position: fixed;' : 'display:none;position: fixed;' }}">
           <div>
             <mat-card><b>Movie Details : {{name}}</b></mat-card><br>
           </div>
